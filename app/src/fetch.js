@@ -1,6 +1,6 @@
 //https://www.dnd5eapi.co/api/
 
-const fetchData = async (url, options = {}) => {
+export const fetchData = async (url, options = {}) => {
   try {
     const response = await fetch(url, options);
 
